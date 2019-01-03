@@ -85,6 +85,7 @@ h6 {
   font-weight: 800;
 }
 
+
 .masthead {
   color: white;
   min-height: 30rem;
@@ -400,4 +401,11 @@ a:hover, a:focus, a:active {
 }
 #foot{
   background: rgba(0,0,0,.5);
+}
+
+#home_button{
+  position:absolute;
+  top:0;
+  right:0;
+  font-size: 48px;
 }
