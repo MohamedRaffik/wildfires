@@ -1,6 +1,7 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+# California Wildfires 🔥
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+In the last month, many residents of California lost their homes to a series of wildfires that were a result of prolonged droughts.
+Our answer is to create a page dedicated to spreading the word for them so they can get all the help they need.
 
 ## Preview
 
