@@ -20,6 +20,36 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <style>
+    
+    .masthead{
+        min-height: 30rem;
+        position: relative;
+        display: table;
+        width: 100%;
+        height: auto;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("https://ei.marketwatch.com/Multimedia/2018/08/21/Photos/ZH/MW-GO697_wildfi_20180821204849_ZH.jpg?uuid=21d59e80-a5a5-11e8-81c1-ac162d7bc1f7");
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://ei.marketwatch.com/Multimedia/2018/08/21/Photos/ZH/MW-GO697_wildfi_20180821204849_ZH.jpg?uuid=21d59e80-a5a5-11e8-81c1-ac162d7bc1f7");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    #relief{
+        background: url("http://www.latimes.com/resizer/NKsRkQr0nbLIZDp-W1x6mzpfUpg=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/43E4FTJJ3ZH7FLIIEN344XN6V4.jpg");
+        color:white;
+        padding-top:300px;
+        padding-bottom: 200px;
+
+
+    }
+    #foot{
+        background: rgba(0,0,0,.5);
+    }
+    
+    </style>
 
   </head>
 
@@ -74,61 +104,25 @@
             <h2>Who You're Helping</h2>
             <p class="lead mb-5">
               <p>The 2018 wildfire season is the deadliest and most destructive wildfire season on record in California, with a total of 8,527 fires burning an area of 1,893,913 acres, the largest amount of burned acreage recorded in a fire season. At least 88 civilians were killed by the Camp Fire, while three firefighters were injured, the fire also destroyed more than 10,321 structures, becoming the deadliest and most destructive fire in California history.</p>
-            <img src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/10/15/104773685-GettyImages-860694520.530x298.jpg?v=1508089140">
+            <img class="rounded" src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/10/15/104773685-GettyImages-860694520.530x298.jpg?v=1508089140">
           </div>
         </div>
       </div>
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
-      <div class="container">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h2 class="mb-5">What We Offer</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p class="text-faded mb-0">Millions of users
-              <i class="fas fa-heart"></i>
-              Start Bootstrap!</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="content-section" id="relief">
+            <div class="container text-center" id="foot">
+              <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <h2>About the Wildfire Relief Fund</h2>
+                  <p class="lead mb-5">
+                    <p>Grants from the Wildfire Relief Fund have supported those who were displaced or lost housing, belongings and/or employment, or suffered physical or mental health problems; helped to rebuild homes; provided case management services, basic needs assistance, mental health services and financial assistance.</p>
+                  </div>
+              </div>
+            </div>
+          </section>
+
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
@@ -143,7 +137,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/stylish-portfolio.js"></script>
 
   </body>
 
