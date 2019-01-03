@@ -404,7 +404,8 @@ a:hover, a:focus, a:active {
 }
 
 #home_button{
-        position:absolute;
-        top:0;
-        right:0;
+  position:absolute;
+  top:0;
+  right:0;
+  font-size: 48px;
 }
